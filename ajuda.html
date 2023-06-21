@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset='utf-8'>
+  <title>Boomyer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel='stylesheet' href='main.css'>
+</head>
+
+<body style="background-color: #d8dad6;">
+    <!--barra de navegação-->
+    <nav class="navbar m-auto fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">
+            <img src="logo.svg" width="30" height="30" class="d-inline-block align-top">
+            Boomyer
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#corNavbar01" aria-controls="corNavbar01" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ajuda.html">Ajuda</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="carrinho.html"><img
+                  src="carrinho.png"
+                  alt=" " width="50; " height="40 "></a>
+            </li>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--Ajuda-->
+    <br>
+    <br>
+    <br>
+    <div class="card col-9 m-auto position-absolute top-50 start-50 translate-middle container shadow p-3 mb-5 bg-body rounded" style="border-color: #d3d3d3;">
+        <form class="px-4 py-3">
+          <div class="mb-3">
+            <h4>Problemas com o nosso site?</h4>
+            <p>Mande uma mensagem para o nosso suporte</p>
+            <label for="exampleDropdownFormEmail1" class="form-label">Email</label>
+            <input type="email" style="border-color: black;" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@exemplo.com">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Escreva aqui a sua mensagem para o nosso suporte</label>
+            <br>
+            <textarea name="Suporte" placeholder="Escreva aqui sua reclamação" id="PedidoDeAjuda" class="form-control" style="border-color: black;" cols="132" rows="4"></textarea>
+          </div>
+          <a type="submit" class="btn btn-outline-secondary" href="ajuda.html">Enviar Solicitação de Ajuda</a>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--rodapé-->
+    <div class="container-fluid position-absolute top-100" style="background-color: #212121;">
+        <div class="container" style="background-color: #212121 ;">
+          <footer class="py-5">
+            <div class="row">
+              <div class="col-2">
+                <h5 style="color: white;">Seção</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Página Inicial</a></li>
+                  <li class="nav-item mb-2"><a href="carrinho.html" class="nav-link p-0 text-muted">Carrinho</a></li>
+                  <li class="nav-item mb-2"><a href="catalogo.html" class="nav-link p-0 text-muted">Catalogo</a></li>
+                  <li class="nav-item mb-2"><a href="ajuda.html" class="nav-link p-0 text-muted">Ajuda</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre</a></li>
+                </ul>
+              </div>
+              
+              <div class="col-5 offset-5">
+                <form>
+                  <h5 style="color: white;">Problemas em nosso site?</h5>
+                  <p style="color: gray;">Entre em contato com nosso suporte.</p>
+                  <div class="d-flex w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Envie um e-mail</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn btn-outline-secondary" type="button">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+    
+            <div class="d-flex justify-content-between py-4 my-4 border-top ">
+              <p style=" color : white ">© 2023 FUNTEC</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    
+    <!--fim do rodapé-->
+
+</body>
+
+</html>
